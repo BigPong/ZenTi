@@ -28,7 +28,7 @@ public class CameraRotate : MonoBehaviour {
         float h = Input.GetAxis("CameraHorizontal");
         float v = Input.GetAxis("CameraVertical");
 
-        transform.position = Vector3.SmoothDamp(transform.position, followObj.transform.position + (rotateVector * 7), ref velocity, smoothTime);
+        transform.position = Vector3.SmoothDamp(transform.position, followObj.transform.position + (rotateVector * 2), ref velocity, smoothTime);
         
         transform.LookAt(followObj.transform);
         Xangle += h * rotateSpeed * Time.deltaTime;

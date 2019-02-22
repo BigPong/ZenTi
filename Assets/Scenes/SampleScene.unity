@@ -548,9 +548,45 @@ Prefab:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1081573938}
+    - target: {fileID: 136833146647785748, guid: 7be52300b32acdf4aa4d1446e02c4d6a,
+        type: 2}
+      propertyPath: m_Height
+      value: 1.930234
+      objectReference: {fileID: 0}
+    - target: {fileID: 136833146647785748, guid: 7be52300b32acdf4aa4d1446e02c4d6a,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0.9631157
+      objectReference: {fileID: 0}
+    - target: {fileID: 54464071951039146, guid: 7be52300b32acdf4aa4d1446e02c4d6a,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7be52300b32acdf4aa4d1446e02c4d6a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1026390556 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1196496653491196, guid: ac106236f2904a64ea88c58bd91b87b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1576191513}
+--- !u!114 &1026390559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026390556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3528bc8fe224c24badae322c33b4106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObj: {fileID: 0}
+  smoothTime: 0.3
+  rotateSpeed: 3
+  Xangle: 0.5
+  Yangle: 0.5
 --- !u!4 &1081573938 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4352900838359536, guid: ac106236f2904a64ea88c58bd91b87b6,
@@ -726,12 +762,62 @@ Prefab:
       propertyPath: followObj
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 54415009049854810, guid: ac106236f2904a64ea88c58bd91b87b6,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54415009049854810, guid: ac106236f2904a64ea88c58bd91b87b6,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352900838359536, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041605642123424, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211640443969060, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352900838359536, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -12.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041605642123424, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 114750598441072114, guid: ac106236f2904a64ea88c58bd91b87b6,
+        type: 2}
+      propertyPath: m_Pivot
+      value: 
+      objectReference: {fileID: 1878207322}
+    - target: {fileID: 114750598441072114, guid: ac106236f2904a64ea88c58bd91b87b6,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4211640443969060, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114943823815108708, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: ac106236f2904a64ea88c58bd91b87b6, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1878207317 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1124387268512834, guid: 7be52300b32acdf4aa4d1446e02c4d6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 882389329}
+--- !u!4 &1878207322 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4267090026752478, guid: 7be52300b32acdf4aa4d1446e02c4d6a,
     type: 2}
   m_PrefabInternal: {fileID: 882389329}
 --- !u!1 &1993319508
