@@ -228,7 +228,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|Run
       takeName: Armature|Run
-      firstFrame: 1
+      firstFrame: 0
       lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
