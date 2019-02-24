@@ -908,6 +908,11 @@ Prefab:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1604167808}
+    - target: {fileID: 54464071951039146, guid: 7be52300b32acdf4aa4d1446e02c4d6a,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7be52300b32acdf4aa4d1446e02c4d6a, type: 2}
   m_IsPrefabParent: 0

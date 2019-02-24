@@ -583,8 +583,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followObj: {fileID: 0}
-  smoothTime: 0.3
-  rotateSpeed: 3
+  smoothTime: 0.1
+  rotateSpeed: 1.5
   Xangle: 0.5
   Yangle: 0.5
 --- !u!4 &1081573938 stripped
