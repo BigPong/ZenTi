@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour {
     Vector3 camForward;
     Vector3 move;
     Animator m_Animator;
+    AnimatorStateInfo animatorStateInfo;
     [SerializeField] float m_MovingTurnSpeed = 360;
     [SerializeField] float m_StationaryTurnSpeed = 180;
 
@@ -59,11 +60,18 @@ public class PlayerMove : MonoBehaviour {
         {
             IsDodging = false;
         }
-        if (Input.GetButtonDown("JoyStickX"))
+
+        animatorStateInfo = m_Animator.GetCurrentAnimatorStateInfo(0);
+
+        if (!animatorStateInfo.IsName("Dodge"))
         {
-            IsDodging = Input.GetButtonDown("JoyStickX");
-            Debug.Log(IsDodging);
+
+            if (Input.GetButtonDown("JoyStickX"))
+            {
+                IsDodging = Input.GetButtonDown("JoyStickX");
+            }
         }
+
     }
 
     void ApplyExtraTurnRotation()

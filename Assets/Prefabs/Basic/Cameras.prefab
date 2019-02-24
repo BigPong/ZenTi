@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followObj: {fileID: 0}
-  smoothTime: 0.3
+  smoothTime: 0.1
   rotateSpeed: 3
-  Xangle: 0.5
+  Xangle: 3
   Yangle: 0.5
