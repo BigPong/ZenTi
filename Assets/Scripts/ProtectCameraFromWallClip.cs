@@ -99,7 +99,6 @@ using UnityEngine;
             // visualise the cam clip effect in the editor
             if (hitSomething)
             {
-                Debug.Log(1);
                 Debug.DrawRay(m_Ray.origin, -m_Pivot.forward * (targetDist + sphereCastRadius), Color.red);
             }
 
